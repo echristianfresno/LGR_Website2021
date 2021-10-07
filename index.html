@@ -8,8 +8,8 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="Your-Image-Url" />
 	<meta property="og:description" content="Your-Page-Description" />
-	<title>Welcome to La Grande Residence</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/lgricon1.png">
+	<title>Sartre | Multipurpose HTML5 Template - 404</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
@@ -18,46 +18,6 @@
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin.css" />
 
-	<style type="text/css">
-		
-		#background-video {
-		  height: 100vh;
-		  width: 100vw;
-		  object-fit: cover;
-		  position: fixed;
-		  left: 0;
-		  right: 0;
-		  top: 0;
-		  bottom: 0;
-		  z-index: -1;
-		}
-
-		/* page content */
-		h1, h2 {
-		  color: white;
-		  font-weight: bold;
-		  text-align: center;
-		}
-
-		h1 {
-		  font-size: 5rem;
-		  margin-top: 40vh; 
-		}
-
-		h2 { font-size: 3rem; }
-
-		@media screen and (min-width: 900px) {
-		    /**#background-video { display: none; }
-		    body {
-		      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
-		      background-size: cover;**/
-		     #background-video {
-		     	height: 100vh
-		     }
-		    } 
-		}
-	</style>
-
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -65,7 +25,6 @@
 </head>
 <body class="shop">
 
-	<!-- Side Navigation Menu End -->
 
 	<div class="wrapper reveal-side-navigation">
 		<div class="wrapper-inner">
@@ -81,40 +40,56 @@
 									<a href="index.html"><img src="images/barber-shop/logo2.png" alt="Sartre Logo" /></a>
 								</div>
 							</div>
+							<nav class="navigation nav-block secondary-navigation nav-right">
+								<ul>
+									<li>
+										<!-- Button -->
+										<div class="v-align-middle">
+											<a href="BookNow2.html" class="button thick border-theme border-hover-theme color-theme color-hover-theme">Book Now</a><br>
+											
+										</div>
+									</li>
+									
+								</ul>
+							</nav>
 							
 						</div>
 					</div>
 				</div>
 			</header>
-			<!-- Header End -->
 
 			<!-- Content -->
 			<div class="content clearfix">
 
-
-
 				<!-- Fullscreen Sections -->
-				<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-				  <source src="Intro_Video.mp4" type="video/mp4">
-				</video>
-
-				<h1>Explore & Enjoy Our Distinction</h1>
-				<div class="column width-12 center">
-				<a href="home.html" class="button medium bkg-theme bkg-hover-theme color-white color-hover-green mb-10 left">
-				<span class="button-content">La Grande Residence</span></a>
-				<a href="Phase2.html" class="button medium bkg-theme bkg-hover-theme color-white color-hover-green mb-10 left">
-				<span class="button-content">Phase 2 - Coming Soon</span></a>
-				<a href="ZermattRestaurant.html" class="button medium bkg-theme bkg-hover-theme color-white color-hover-green mb-10 left">
-				<span class="button-content">Restaurants & Bars</span></a>
-				</div>
+				<section class="fullscreen-sections-wrapper no-navigation">
+					<div class="section-block fullscreen-section background-cover bkg-charcoal">
+						<!-- Fullscreen Image -->
+						<video autoplay muted loop id="myVideo">
+								  <source src="Intro_Video.mp4" type="video/mp4">
+								  Your browser does not support HTML5 video.
+								</video>
+								<img data-src="images/barber-shop/slider/slide-3-fs.jpg" data-retina src="images/blank.png" alt=""/>
+						<div class="fullscreen-inner">
+							<div class="row">
+								<div class="column width-7 offset-3 pt-50 center offset-1">
+									<h2 class="mb-30 title-medium no-padding-on-mobile text-uppercase color-white">Enjoy & Experience Our Distinction</h2>
+									<a class="button medium border-white color-white bkg-hover-theme color-hover-white fade-location" href="index.html">La Grande Residence</a>
+									<a class="button medium border-white color-white bkg-hover-theme color-hover-white fade-location" href="index.html">Phase 2 - Coming Soon</a>
+									<a class="button medium border-white color-white bkg-hover-theme color-hover-white fade-location" href="index.html">Restaurants & Bars</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 				<!-- Fullscreen Sections End -->
-
-
 
 			</div>
 			<!-- Content End -->
 
+			<!-- Footer -->
 			
+			<!-- Footer End -->
 
 		</div>
 	</div>
