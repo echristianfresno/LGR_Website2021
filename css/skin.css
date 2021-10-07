@@ -430,6 +430,11 @@ body,
 	color: #0badc1;
 }
 
+.bkg-hover-green:hover{
+	background-color: #8bc53f;
+	border-color: #8bc53f;
+}
+
 /*------------------------------------------------------------------
 [3. Section Padding]
 */
@@ -1919,6 +1924,14 @@ body,
 	background-image: url(../images/MTeam/HiringBanner.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 /* Signup 2 */
